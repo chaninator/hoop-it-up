@@ -1,0 +1,420 @@
+body {
+  background-color: #E9501A;
+  display: flex;
+  align-items: center;
+  /*height: 100vh;*/
+  flex-direction: column;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+.scoreboard {
+  height: 450px;
+  width: 700px;
+  background-color: #8CBCB9;
+  position: relative;
+  border: 10px solid black;
+  border-radius: 5px;
+}
+
+.inner_border {
+  border: 5px solid #E9501A;
+  border-radius: 5px;
+  height: 400px;
+  margin: 20px;
+}
+
+.home, .away {
+  text-align: center;
+  width: 70px;
+  font-size: 1.8em;
+}
+
+.home {
+  position: absolute;
+  left: 70px;
+  top: 10px;
+}
+
+.away {
+  position: absolute;
+  right: 80px;
+  top: 10px;
+}
+
+.div_line_away, .div_line_home {
+  border: 3px solid black;
+  border-radius: 30px;
+  position: absolute;
+  width: 100px;
+}
+
+.div_line_home {
+  left: 60px;
+  top: 95px;
+}
+
+.div_line_away {
+  right: 60px;
+  top: 95px;
+}
+
+.score_container_home, .score_container_away {
+  width: 125px;
+  height: 170px;
+  position: absolute;
+  border: 5px solid #E9501A;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5em;
+  font-family: "Londrina Outline", sans-serif;
+}
+
+.score_container_home {
+  top: 130px;
+  left: 45px;
+}
+
+.score_container_away {
+  top: 130px;
+  right: 45px;
+}
+
+.add_button {
+  height: 100px;
+  width: 100px;
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  color: white;
+  font-family: "Londrina Outline", sans-serif;
+}
+
+.minus_button {
+  height: 70px;
+  width: 70px;
+  border: 4px solid white;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  color: white;
+  font-family: "Londrina Outline", sans-serif;
+}
+
+.btn1 {
+  top: 60px;
+  right: -140px;
+}
+
+.btn2 {
+  top: 180px;
+  right: -140px;
+}
+
+.btn3 {
+  top: 300px;
+  right: -140px;
+}
+
+.btn4 {
+  top: 60px;
+  left: -140px;
+}
+
+.btn5 {
+  top: 180px;
+  left: -140px;
+}
+
+.btn6 {
+  top: 300px;
+  left: -140px;
+}
+
+.btn-subtract1 {
+  top: 330px;
+  left: 75px;
+}
+
+.btn-subtract2 {
+  top: 330px;
+  right: 75px;
+}
+
+.inner_rect {
+  border-top: 10px solid black;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-radius: 5px;
+  height: 140px;
+  width: 220px;
+  position: absolute;
+  top: 175px;
+  left: 230px;
+}
+
+.rim {
+  border: 10px solid red;
+  position: absolute;
+  border-radius: 50px;
+  width: 260px;
+  top: 320px;
+  left: 210px;
+  z-index: 1;
+}
+
+.net1 {
+  position: absolute;
+  height: 100px;
+  width: 250px;
+  border: 10px solid white;
+  border-color: white transparent transparent transparent;
+  transform: rotate(75deg);
+  border-radius: 50%;
+  top: 380px;
+  left: 90px;
+}
+
+.net2 {
+  position: absolute;
+  height: 100px;
+  width: 250px;
+  border: 10px solid white;
+  border-color: white transparent transparent transparent;
+  transform: rotate(285deg);
+  border-radius: 50%;
+  top: 380px;
+  left: 340px;
+}
+
+.net3 {
+  position: absolute;
+  height: 50px;
+  border-left: 10px solid white;
+  top: 335px;
+  left: 345px;
+}
+
+.net4 {
+  position: absolute;
+  height: 95px;
+  border-left: 10px solid white;
+  top: 358px;
+  left: 310px;
+  transform: rotate(55deg);
+}
+
+.net5 {
+  position: absolute;
+  height: 186px;
+  border-left: 10px solid white;
+  top: 340px;
+  left: 357px;
+  transform: rotate(55deg);
+}
+
+.net6 {
+  position: absolute;
+  height: 166px;
+  border-left: 10px solid white;
+  top: 402px;
+  left: 348px;
+  transform: rotate(55deg);
+}
+
+.net7 {
+  position: absolute;
+  height: 95px;
+  border-left: 10px solid white;
+  top: 358px;
+  left: 380px;
+  transform: rotate(305deg);
+}
+
+.net8 {
+  position: absolute;
+  height: 186px;
+  border-left: 10px solid white;
+  top: 340px;
+  left: 332px;
+  transform: rotate(305deg);
+}
+
+.net9 {
+  position: absolute;
+  height: 166px;
+  border-left: 10px solid white;
+  top: 402px;
+  left: 342px;
+  transform: rotate(305deg);
+}
+
+@media (max-width: 500px) {
+
+  body {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .add_button {
+    height: 60px;
+    width: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    font-family: "Londrina Outline", sans-serif;
+  }
+
+  .minus_button {
+    height: 60px;
+    width: 60px;
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: black;
+    font-family: "Londrina Outline", sans-serif;
+  }
+
+  .btn1 {
+    top: 301px;
+    right: 46px;
+  }
+
+  .btn2 {
+    top: 350px;
+    right: 89px;
+  }
+
+  .btn3 {
+    top: 350px;
+    right: 3px;
+  }
+
+  .btn-subtract2 {
+    top: 400px;
+    right: 45px;
+  }
+
+  .btn4 {
+    top: 301px;
+    left: 46px;
+  }
+
+  .btn5 {
+    top: 350px;
+    left: 89px;
+  }
+
+  .btn6 {
+    top: 350px;
+    left: 3px;
+  }
+
+  .btn-subtract1 {
+    top: 400px;
+    left: 45px;
+  }
+
+  .scoreboard {
+    height: 250px;
+    width: 90%;
+    background-color: #8CBCB9;
+    position: relative;
+    border: 5px solid black;
+    border-radius: 5px;
+  }
+
+  .inner_border {
+    border: 3px solid #E9501A;
+    border-radius: 5px;
+    height: 82%;
+    /*margin: 20px;*/
+  }
+
+  .score_container_home, .score_container_away {
+    width: 80px;
+    height: 100px;
+    top: 100px;
+    position: absolute;
+    border: 3px solid #E9501A;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    font-family: "Londrina Outline", sans-serif;
+  }
+
+  .inner_rect, .rim, .net1, .net2, .net3, .net4, .net5, .net6, .net7, .net8, .net9 {
+    display: none;
+  }
+
+  .home, .away {
+    text-align: center;
+    width: 70px;
+    font-size: 1.3em;
+  }
+
+  .home {
+    position: absolute;
+    left: 55px;
+    top: 10px;
+  }
+
+  .away {
+    position: absolute;
+    right: 55px;
+    top: 10px;
+  }
+
+  .div_line_away, .div_line_home {
+    border: 3px solid black;
+    border-radius: 30px;
+    position: absolute;
+    width: 50px;
+  }
+
+  .div_line_home {
+    left: 63px;
+    top: 75px;
+  }
+
+  .div_line_away {
+    right: 63px;
+    top: 75px;
+  }
+
+}
