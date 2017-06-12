@@ -22,6 +22,7 @@ class ScoreBoard extends Component {
         <div className="net9"></div>
         <Home />
         <Away />
+        <button className="reset">NEW GAME</button>
       </div>
     );
   }
