@@ -2,7 +2,6 @@ body {
   background-color: #E9501A;
   display: flex;
   align-items: center;
-  /*height: 100vh;*/
   flex-direction: column;
   color: white;
 }
@@ -22,6 +21,20 @@ h1 {
   position: relative;
   border: 10px solid black;
   border-radius: 5px;
+}
+
+.reset {
+  margin-top: 240px;
+  font-family: Bungee Outline, sans-serif;
+  font-size: 2em;
+  border: 3px solid #E9501A;
+  color: #E9501A;
+  border-radius: 5px;
+  padding: 8px;
+  position: absolute;
+  left: 255px;
+  bottom: 300px;
+  background-color: none;
 }
 
 .inner_border {
@@ -77,7 +90,7 @@ h1 {
   align-items: center;
   color: white;
   font-size: 5em;
-  font-family: "Londrina Outline", sans-serif;
+  font-family: "Londrina Shadow", sans-serif;
 }
 
 .score_container_home {
@@ -101,7 +114,7 @@ h1 {
   align-items: center;
   font-size: 3em;
   color: white;
-  font-family: "Londrina Outline", sans-serif;
+  font-family: "Londrina Shadow", sans-serif;
 }
 
 .minus_button {
@@ -115,7 +128,7 @@ h1 {
   align-items: center;
   font-size: 2.5em;
   color: white;
-  font-family: "Londrina Outline", sans-serif;
+  font-family: "Londrina Shadow", sans-serif;
 }
 
 .away1 {
@@ -270,7 +283,6 @@ h1 {
 
   body {
     display: flex;
-    /*justify-content: center;*/
     align-items: center;
   }
 
@@ -289,7 +301,7 @@ h1 {
     align-items: center;
     font-size: 2em;
     color: white;
-    font-family: "Londrina Outline", sans-serif;
+    font-family: "Londrina Shadow", sans-serif;
   }
 
   .minus_button {
@@ -304,52 +316,52 @@ h1 {
     align-items: center;
     font-size: 2em;
     color: black;
-    font-family: "Londrina Outline", sans-serif;
+    font-family: "Londrina Shadow", sans-serif;
   }
 
   .away1 {
-    top: 301px;
+    top: 281px;
     right: 46px;
   }
 
   .away2 {
-    top: 350px;
+    top: 330px;
     right: 89px;
   }
 
   .away3 {
-    top: 350px;
+    top: 330px;
     right: 3px;
   }
 
   .away-subtract2 {
-    top: 400px;
+    top: 380px;
     right: 45px;
   }
 
   .home1 {
-    top: 301px;
+    top: 281px;
     left: 46px;
   }
 
   .home2 {
-    top: 350px;
+    top: 330px;
     left: 89px;
   }
 
   .home3 {
-    top: 350px;
+    top: 330px;
     left: 3px;
   }
 
   .home-subtract1 {
-    top: 400px;
+    top: 380px;
     left: 45px;
   }
 
   .scoreboard {
     height: 250px;
-    width: 90%;
+    width: 350px;
     background-color: #8CBCB9;
     position: relative;
     border: 5px solid black;
@@ -375,7 +387,7 @@ h1 {
     align-items: center;
     color: white;
     font-size: 3em;
-    font-family: "Londrina Outline", sans-serif;
+    font-family: "Londrina Shadow", sans-serif;
   }
 
   .inner_rect, .rim, .net1, .net2, .net3, .net4, .net5, .net6, .net7, .net8, .net9 {
@@ -415,6 +427,22 @@ h1 {
   .div_line_away {
     right: 63px;
     top: 75px;
+  }
+
+  .reset {
+    font-family: Bungee Outline, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border: 3px solid #E9501A;
+    color: #E9501A;
+    border-radius: 5px;
+    padding: 8px;
+    position: absolute;
+    left: 70px;
+    height: 70px;
+    top: 230px;
   }
 
 }
