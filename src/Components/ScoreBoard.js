@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Home from './Home';
+import Away from './Away';
 import './scoreboard.css';
 
 class ScoreBoard extends Component {
@@ -18,6 +20,8 @@ class ScoreBoard extends Component {
         <div className="net7"></div>
         <div className="net8"></div>
         <div className="net9"></div>
+        <Home />
+        <Away />
       </div>
     );
   }
