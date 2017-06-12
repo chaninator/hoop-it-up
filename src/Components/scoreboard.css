@@ -434,14 +434,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.8em;
     border: 3px solid #E9501A;
     color: #E9501A;
     border-radius: 5px;
-    padding: 8px;
+    /*padding: 10px;*/
     position: absolute;
     left: 70px;
     height: 70px;
+    width: 200px;
     top: 230px;
   }
 
