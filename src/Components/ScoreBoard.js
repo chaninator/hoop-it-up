@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Home from './Home';
 import Away from './Away';
-
 import './scoreboard.css';
 
 class ScoreBoard extends Component {
