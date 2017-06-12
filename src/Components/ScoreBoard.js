@@ -66,7 +66,6 @@ class ScoreBoard extends Component {
     if (awayScore >= 0) {
       this.setState({awayScore: awayScore})
     }
->>>>>>> 5f8155cb704a70b678b7a26dadce8ac42af7f51c
   }
 
   render() {
