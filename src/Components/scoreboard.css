@@ -34,7 +34,7 @@ h1 {
   position: absolute;
   left: 255px;
   bottom: 300px;
-  background-color: none;
+  background-color: white;
 }
 
 .inner_border {
@@ -435,14 +435,12 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 1.8em;
-    border: 3px solid #E9501A;
     color: #E9501A;
     border-radius: 5px;
-    /*padding: 10px;*/
     position: absolute;
     left: 70px;
-    height: 70px;
-    width: 200px;
+    height: 40px;
+    width: 180px;
     top: 230px;
   }
 
